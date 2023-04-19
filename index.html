@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Deynni Almazan"/>
+        <meta name="description" content="Temperature converter"/>
+        <meta name="keywords" content="html, css, web, web development, seo"/>
+        <title> Temperature Converter</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="shorcut icon" href="../DOM/assets/image/favicon-32x32.png" type="image/S-icon">
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src="./assets/script/index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flex">
+                <div class="title">
+                    <h1>Converter</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section>
+                    <h2>Temperature converter</h2>
+                    <form name="calc">
+                        <div class="data">
+                            <input type="text" name="temp" class="temp" placeholder="Temperature">
+                            <input type="button" class="convert" value="Convert">
+                        </div>
+                        
+                        <div class="radiobuttons">
+                            <input type="radio" id="toFarenheit" checked= true name="temperature" value="toFarenheit">
+                            <label class="one" for="toFarenheit">To Farenheit</label>
+                            <input type="radio" id="toCelsius" name="temperature" value="toCelsius">
+                            <label class="two" for="toCelsius">To Celsius</label>
+                         </div>
+                    </form>
+                    <div class="output">
+                        <p></p>
+                    </div>
+                 </section>
+                 <input type="button" class="darkmode" value="Dark mode">
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="container">
+            <p class="name"> &copy2023 Deynni Almazan</p>
+        </div>
+    </footer>
+</html>
